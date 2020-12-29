@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <div class="mainContainer">
+    <img class="logo" src="images/logo.svg" alt="">
+    <h1 class="heading">We are launching <strong>soon!</strong></h1>
+    <p class="text">Subscribe and get notified</p>
+    <div class="userInput">
+      <div class="inputWithError">
+        <input type="email" placeholder="Your email address..." id="email">
+        <br>
+        <span id="error"></span>
+      </div>
+      <button id="notify" type="submit">Notify Me</button>
+    </div>
+    <img class="mockup" src="images/illustration-dashboard.png" alt="">
+    <div class="socialMedia">
+      <img class="facebook" src="images/facebook.png" alt="Facebook logo">
+      <img class="twitter" src="images/twitter.png" alt="Twitter logo">
+      <img class="instagram" src="images/instagram.png" alt="Instagram logo">
+    </div>
+    <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+  </div>
 </body>
+<script src="script.js"></script>
 </html>

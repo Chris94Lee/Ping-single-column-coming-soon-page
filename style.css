@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body{
+  margin: 0 auto;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+h1{
+  color: #969696;
+  font-size: 48px;
+  font-weight: 300; 
+  margin-top: 40px; 
+  margin-bottom: 16px;
+}
+
+strong{
+  color: #15202A;
+  font-weight: 600;
+}
+
+.text{
+  margin: 0 0 40px 0;
+  font-size: 20px;
+  color: #15202A;
+  font-weight: 300;
+}
+
+.userInput{
+  display: flex;
+  flex-direction: row;
+  width: 637px;
+}
+
+input{
+  width: 421px;
+  height: 56px;
+  margin-right: 16px;
+  border-radius: 28px;
+  padding: 18px 0 18px 30px;
+  box-sizing: border-box;
+  border-color: #C2D3FF;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input:focus{
+  border-color: #4d7fff;
+  outline: none;
+}
+
+span{
+  font-size: 12px;
+  color: #FF5466;
+  font-style: italic;
+  margin-left: 30px;
+  margin-top: 6px;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+}
+
+button{
+  width: 200px;
+  height: 56px;
+  border-radius: 28px;
+  border-style: none;
+  background-color: #4C7BF3;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+::placeholder{
+  color: #C2D3FF;
+}
+
+.mockup{
+  margin-top: 94px;
+  width: 640px;
+}
+
+.facebook, .twitter, .instagram{
+  width: 16px;
+  margin: 0 9px 0 9px;
+}
+
+.copyright{
+  margin-top: 25px;
+  color: #969696;
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 49px;
+}
+
+@media only screen and (max-width:600px){
+  .mainContainer{
+    width: 85%;
+  }
+}
