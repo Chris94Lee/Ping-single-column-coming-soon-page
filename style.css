@@ -9,7 +9,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 85px;
 }
 
 h1{
@@ -83,6 +83,10 @@ button{
 .mockup{
   margin-top: 94px;
   width: 640px;
+}
+
+.socialMedia{
+  margin-top: 72px;
 }
 
 .facebook, .twitter, .instagram{
