@@ -96,6 +96,7 @@ button{
 .facebook, .twitter, .instagram{
   width: 16px;
   margin: 0 9px 0 9px;
+  cursor: pointer;
 }
 
 .copyright{
